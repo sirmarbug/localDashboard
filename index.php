@@ -22,38 +22,9 @@
             <div class="projekty text-center">
                 Projekty
             </div>
-            
-            <div class="space">
-            
-            <div class="col-lg-2 col-md-2 col-sm-12 text-center">
-                <div class="file">
-                    <a href="./phpmyadmin" class="text-center">
-                        <img src="assets/img/baza.png" alt="folder" class="img-responsive animacja"/>
-                        PhpMyAdmin
-                    </a>
-                </div>
-            </div>
-                
-                <div class="col-lg-2 col-md-2 col-sm-12 text-center">
-                <div class="file">
-                    <a href="./Mariusz/" class="text-center">
-                        <img src="assets/img/katalogi.png" alt="folder" class="img-responsive animacja"/>
-                        Mariusz
-                    </a>
-                </div>
-            </div>
-                
-                <div class="col-lg-2 col-md-2 col-sm-12 text-center">
-                <div class="file">
-                    <a href="./Student/" class="text-center">
-                        <img src="assets/img/katalogi.png" alt="folder" class="img-responsive animacja"/>
-                        Student
-                    </a>
-                </div>
-            </div>
-        <?
+    <?
         $dir = "./";
-        $ilosc = 3;
+        $ilosc = 0;
         if (is_dir($dir)){
             if ($dh = opendir($dir)){
                 while (($file = readdir($dh)) !== false){
@@ -87,7 +58,7 @@
                 }
             }
         }
-    ?>  
+    ?>
             <div class="row">
             <div class="naglowek text-center">
                 Zlecenia
@@ -128,7 +99,7 @@
                 }
             }
         }
-    ?> 
+    ?>
                 
                         <div class="row">
             <div class="naglowek text-center">
